@@ -44,6 +44,7 @@ def submit_exam():
 # ==================================================
 # HEADER
 # ==================================================
+st.image("vignan_logo.png", width=600)
 st.title("📝 Online Quiz Examination")
 st.markdown("---")
 role = st.selectbox("Login as", ["Select", "Faculty", "Student"])
